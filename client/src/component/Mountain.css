@@ -1,0 +1,241 @@
+@font-face {
+    font-family: "Sejong hospital Light";
+    font-weight: normal;
+    src: url("../fonts/Sejong hospital Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Sejong hospital Bold";
+    font-weight: normal;
+    src: url("../fonts/Sejong hospital Bold.ttf") format("truetype");
+}
+.mt_list {
+    font-family : "Sejong hospital Light";
+    width : 80%;
+    margin : 0 auto 110px auto;
+}
+.list img {
+    width : 350px;
+    height: 200px;
+}
+.list {
+    width : 120%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.list-item {
+    /* list 안에 각 아이템 스타일 */
+    box-sizing: border-box; /* 테두리와 패딩을 포함하여 요소의 크기를 계산합니다. */
+    display: flex;
+    flex-direction: column; /* 내부 요소를 세로로 정렬하기 위해 */
+    margin:20px 75px 50px 75px;
+    border-radius: 10px;
+    border: 1px solid #e3e1e1;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.list :hover {
+    transform: scale(1.01);
+    transition: transform 0.2s ease-in-out;
+}
+.list-item a {
+    text-decoration: none !important;
+}
+
+.list-item .ID {
+    /* ID 스타일 */
+    font-weight: bold;
+}
+
+.list-item .MT_NAME {
+    /* 이름 스타일 */
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+.list-item .MT_ADRESS {
+    /* 주소 스타일 */
+    color: gray;
+    margin-top: 5px;
+}
+
+.list-item .MT_HEIGHT {
+    /* 높이 스타일 */
+    color: red;
+}
+
+.mountain-image {
+    /* 이미지 스타일 */
+    width: 100%; /* 부모 요소의 너비에 맞게 이미지 크기를 조정합니다. */
+    height: 200px;
+    position:relative;
+    border-radius: 10px;
+    top:5px;
+}
+
+.mt_list h2, .mt_list span{
+    padding: 20px;
+    margin-left: 200px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.m_info span {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    display: block; /* 한 줄로 길어지는 것을 방지하기 위해 블록 요소로 설정합니다. */
+    margin-bottom: 20px;
+}
+
+path:hover {
+    outline: none;
+    fill: #114d08;
+}
+
+.rank1 {
+    fill: #d6efc4;
+}
+.svg-content {
+    font-family : "Sejong hospital Bold";
+    display : flex;
+}
+.svg-mapF {
+    display : flex;
+}
+.svg {
+    position : relative;
+    left : 240px;
+    width: 350px;
+    margin-bottom: 50px;
+}
+svg {
+    position : relative;
+    left : 150px;
+}
+.svg-list {
+    width : 1000px;
+    position : relative;
+    top : 30px;
+    left : 150px;
+    display : flex;
+    flex-wrap : wrap;
+}
+.svg-list a {
+    text-decoration: none;
+    color : black;
+}
+.svg-img {
+    width : 200px;
+    height : 150px;
+}
+.svg-item {
+    width : 450px;
+    height : 150px;
+    border : 1px solid black;
+    margin : 0 20px 15px 0;
+}
+.svg-name {
+    position : relative;
+    bottom : 100px;
+    left : 210px;
+    font-size : 17px;
+}
+.svg-adress {
+    position : relative;
+    bottom : 90px;
+    left : 210px;
+    font-size : 16px;
+}
+.tap-select {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.tap-select button {
+    font-family : "Sejong hospital Light";
+    max-width: 600px;
+    width: 100%;
+    height: 45px;
+    border-color: grey;
+    background: white;
+    transition: background-color 0.3s; /* 배경색 전환에 애니메이션 적용 */
+    font-weight: bold;
+    font-size : 14px;
+}
+
+
+.tap-select button:hover {
+    background-color: #5d6f5c
+}
+
+.tap-select button:focus,
+.tap-select button:active {
+    background: linear-gradient(45deg, #859b7e, #496146); /* 클릭하면 배경색을 초록색으로 변경 */
+}
+.region-list {
+    display : flex;
+    list-style-type: none;
+    margin : 8px 0 20px 0;
+}
+.region-list li {
+    margin : 0 10px 5px 0;
+}
+.region-list li button {
+    font-family : "Sejong hospital Light";
+    border-radius : 20px;
+    border : none;
+    padding : 12px 14px;
+    font-size : 14px;
+    background-color: gray;
+    color: white;
+    font-weight: 500;
+}
+.region-list button:hover {
+    background-color: #62725f
+}
+
+.region-list button:focus,
+.region-list button:active {
+    background: linear-gradient(45deg, #5e8d6b, #497946); /* 클릭하면 배경색을 초록색으로 변경 */
+}
+.select-list {
+    width : 1270px;
+    margin : auto;
+}
+.mapImage {
+    position : relative;
+    left : 460px;
+    width : 390px;
+}
+.svgMapName {
+    position : relative;
+    left : 435px;
+    bottom : 410px;
+    font-size : 30px;
+}
+
+
+.mt_text-overlay {
+    position: absolute;
+    top: 50%; /* 부모 요소의 상단에서 절반 떨어진 위치 */
+    left: 50%; /* 부모 요소의 왼쪽에서 절반 떨어진 위치 */
+    transform: translate(-50%, -50%); /* 가운데 정렬 */
+    padding: 10px; /* 텍스트 주변 여백 조절 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+}
+.mt_text-overlay p {
+    font-size: 50px;
+    color: white;
+}
+.mt_text-overlay span {
+    font-size: 20px;
+    color: white;
+}

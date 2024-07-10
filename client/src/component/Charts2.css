@@ -1,0 +1,19 @@
+.charts-mountain-pop-up {
+    display : flex;
+    list-style-type: none;
+    justify-content: center;
+    margin : auto;
+}
+.charts-mountain-pop-up li {
+    border : 1px solid gray;
+    padding : 6px 0;
+}
+.pop-up1 {
+    width : 110px;
+}
+.pop-up2 {
+    width : 220px;
+}
+.pop-up3 {
+    width : 60px;
+}

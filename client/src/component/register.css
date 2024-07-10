@@ -1,0 +1,83 @@
+/* login.css */
+body {
+    margin-top: 100px;
+}
+.login-container {
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    margin: 190px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #8a9b91;
+    display: flex;
+    align-items: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+.login-form label {
+    margin-bottom : 6px;
+}
+.login-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 228px;
+}
+
+.login-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 250px;
+}
+.login-naver {
+    padding: 10px;
+    background-color: #53ff0a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 250px;
+}
+.login-kakao {
+    padding: 10px;
+    background-color: #fff032;
+    color: #131212;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 250px;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+.login-error {
+    color: #dc3545;
+    margin-top: 10px;
+}
+.login-content {
+    width: 40%;
+}
+
+.login-image {
+    width: 50%;
+    /* 오른쪽에 이미지를 배치하는 데 필요한 스타일을 추가하세요 */
+
+}
+.login-image img {
+    width: 320px;
+}

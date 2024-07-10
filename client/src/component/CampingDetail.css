@@ -1,0 +1,17 @@
+.detail {
+    display: flex; /* Flexbox를 사용하여 요소들을 배치합니다. */
+    align-items: center; /* 요소들을 수직 가운데로 정렬합니다. */
+}
+
+.camp_name {
+    text-align: center; /* 캠핑장 이름을 중앙에 위치하도록 텍스트를 가운데 정렬합니다. */
+    margin-bottom: 20px; /* 캠핑장 이름과 다음 요소 사이의 간격을 조정합니다. */
+}
+
+.camp_img {
+    margin-right: 20px; /* 이미지와 인포 사이의 간격을 조정합니다. */
+}
+
+.camp_info {
+    flex: 1; /* 남은 공간을 모두 차지하여 남은 영역을 인포가 채우도록 설정합니다. */
+}

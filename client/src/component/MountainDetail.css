@@ -1,0 +1,316 @@
+/* MountainDetail.css */
+@font-face {
+    font-family: "Sejong hospital Light";
+    font-weight: normal;
+    src: url("../fonts/Sejong hospital Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Sejong hospital Bold";
+    font-weight: normal;
+    src: url("../fonts/Sejong hospital Bold.ttf") format("truetype");
+}
+.posts {
+    padding: 10px;
+}
+
+.Naver_blog {
+    position: relative;
+    border: 1px solid black;
+    width: 700px;
+    height: 600px;
+    margin-left:  50px;
+}
+.mapmaker {
+    width: 80%;
+    height: 600px;
+    position: relative;
+    display: flex;
+    border: 1px solid #e3e1e1;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    margin: auto;
+}
+.marker-style {
+    background-color: #fff;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.sec_3map {
+    margin-top: 20px;
+}
+.mountain-detail {
+    font-family : "Sejong hospital Light";
+    margin : 130px 0 0 0;
+}
+.mountain-detail-info-bundle {
+    display : flex;
+    border: 1px solid #e3e1e1;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    margin: 10px auto;
+    width: 80%;
+
+
+}
+.mountain-detail-image {
+    float : left;
+    width : 40%;
+    border : 1px solid gray;
+    position: relative;
+}
+.mountain-detail-info-text {
+    width : 60%;
+    border : 1px solid black;
+    border-radius: 20px;
+    margin-left : 30px;
+    text-align : center;
+    padding-top : 10px;
+}
+.mountain-detail-info-text div {
+    margin-top : 25px;
+}
+.info-text-name {
+    box-shadow: inset 0 -12px 0 rgba(255, 223, 223, 1);
+    font-size : 50px;
+    font-weight: bold;
+    padding : 0 10px;
+}
+.info-text-adress {
+    width :60%;
+    float : left;
+    font-size : 24px;
+    font-weight : bold;
+}
+.info-text-adress span {
+    padding : 0 10px;
+    box-shadow: inset 0 -12px 0 rgb(219, 244, 255);
+}
+.info-text-height {
+    font-weight : bold;
+    float : right;
+    width : 40%;
+    font-size : 22px;
+}
+.info-text-height span {
+    padding : 0 10px;
+    box-shadow: inset 0 -12px 0 rgb(225, 255, 215);
+}
+.info-box {
+    width : 94%;
+    text-align : left;
+    margin : auto;
+    padding-top : 60px;
+}
+.info-box-color {
+    background-color : #d694ec;
+    padding : 8px 12px;
+    color : white;
+    border-radius: 10px;
+}
+.info-text-information {
+    padding : 10px 30px 0 30px;
+    text-align : justify;
+    line-height : 22px;
+}
+.mountain-weather {
+    clear:both;
+    padding : 15px 10px;
+    width : 80%;
+    margin : auto;
+    font-size : 16px;
+    border: 1px solid #e3e1e1;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+.weather_container {
+    margin-right: 32px;
+}
+
+.mountain-weather ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+
+}
+
+.mountain-weather li {
+    width: 82px;
+    height: 40px;
+    border: 1px solid #a4a4a4;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.windlist li{
+    height : 50px;
+    padding : 1px 0;
+}
+.windicon {
+    display : flex;
+    flex-direction: column;
+    padding : 1px 0;
+}
+.windresult {
+    position : relative;
+    bottom : 2px;
+}
+.weather-nonbox {
+    border : 0;
+}
+
+.color-box {
+    background-color: #006fff;
+    color:white;
+    border-radius : 10px;
+    padding : 6px 8px;
+}
+.camp_list_21 {
+    position: relative;
+    width: 81%;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #e3e1e1;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+
+}
+.camp-container {
+    margin-top: 20px;
+}
+.camp_list {
+    width: 200px;
+    position: relative;
+}
+.camp_list_1 {
+    display: flex;
+    flexWrap: wrap;
+    flex: 0 0 200px;
+    margin: 10px;
+    wordWrap: break-word;
+}
+
+.camp_list_1 p {
+    maxWidth: 200px;
+    overflow: hidden;
+
+}
+
+.camp_img1 {
+    border-radius: 10px;
+    border: 1px solid #e3e1e1;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    margin: 10px;
+
+}
+.camp_img1 a {
+    text-decoration: none;
+}
+.camp_img1 img{
+    width: 295px;
+    height: 200px;
+}
+.camp_img1 p {
+    color: black;
+    font-size: 20px;
+}
+.camp_img1 span {
+    color: grey;
+}
+.weather-image {
+    width : 50px;
+}
+.weather-box {
+    height : 55px;
+}
+.weather-box li {
+    height: 55px;
+}
+
+.mountain-detail-info-text div {
+        margin-top: 25px;
+    }
+
+    .info-text-name {
+        box-shadow: inset 0 -12px 0 rgba(255, 223, 223, 1);
+        font-size: 50px;
+        font-weight: bold;
+        padding: 0 10px;
+    }
+
+    .info-text-adress {
+        width: 60%;
+        float: left;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .info-text-adress span {
+        padding: 0 10px;
+        box-shadow: inset 0 -12px 0 rgb(219, 244, 255);
+    }
+
+    .info-text-height {
+        font-weight: bold;
+        float: right;
+        width: 40%;
+        font-size: 22px;
+    }
+
+    .info-text-height span {
+        padding: 0 10px;
+        box-shadow: inset 0 -12px 0 rgb(225, 255, 215);
+    }
+
+    .info-box {
+        width: 94%;
+        text-align: left;
+        margin: auto;
+        padding-top: 60px;
+    }
+
+    .info-box-color {
+        background-color: #d694ec;
+        padding: 8px 12px;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .info-text-information {
+        padding: 10px 30px 0 30px;
+        text-align: justify;
+        line-height: 22px;
+    }
+
+
+    .windlist li {
+        height: 50px;
+        padding: 1px 0;
+    }
+
+    .windicon {
+        display: flex;
+        flex-direction: column;
+        padding: 1px 0;
+    }
+
+    .windresult {
+        position: relative;
+        bottom: 2px;
+    }
+
+    .weather-nonbox {
+        border: 0;
+    }
+
+    .color-box {
+        background-color: #006fff;
+        color: white;
+        border-radius: 10px;
+        padding: 6px 8px;
+    }
+
